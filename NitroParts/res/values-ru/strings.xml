@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Настройки Nitro</string>
+
+    <string name="category_usb_title">USB</string>
+    <string name="fastcharge_title_head">Быстрая зарядка</string>
+    <string name="fastcharge_summary_head">Включить быструю зарядку от PC USB (750mA)</string>
+
+    <string name="category_backlightdisable_title">Подсветка</string>
+    <string name="backlightdisable_title_head">Подсветка сенсорных кнопок</string>
+    <string name="backlightdisable_summary_head">Запретить подсветку сенсорных кнопок</string>
+
+    <string name="category_vibrator_intensity_title">Вибромотор</string>
+    <string name="vibrator_intensity_title_head">Управление вибромотором</string>
+    <string name="vibrator_intensity_summary_head">Выбрать мощность виброотклика</string>
+
+    <string name="category_sdcard_cache_title">SD Карта</string>
+    <string name="sdcard_cache_title_head">Размер SDCard Cache</string>
+    <string name="sdcard_cache_summary_head">Выбрать размер SDCard Кеша</string>
+
+    <string name="category_wifi_pm_title">WiFi</string>
+    <string name="wifi_pm_title_head">Управление WiFi</string>
+    <string name="wifi_pm_summary_head">Включение режима WIFI_FAST</string>
+
+</resources>
