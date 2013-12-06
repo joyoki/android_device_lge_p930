@@ -1,23 +1,10 @@
 #
 # system.prop for p930
 #
-rild.libargs=-d /dev/smd0
-telephony.lteOnGsmDevice=1
-ro.ril.transmitpower=true
-ro.radio.networkmode=enable
-ro.radio.check_csp=disable
-ro.radio.topreviousmode=disable
+#ril.subscription.types=NV,RUIM
 ro.telephony.default_network=9
-ro.vendor.extension_library=/system/lib/libqc-opt.so
-persist.rild.nitz_plmn=
-persist.rild.nitz_long_ons_0=
-persist.rild.nitz_long_ons_1=
-persist.rild.nitz_long_ons_2=
-persist.rild.nitz_long_ons_3=
-persist.rild.nitz_short_ons_0=
-persist.rild.nitz_short_ons_1=
-persist.rild.nitz_short_ons_2=
-persist.rild.nitz_short_ons_3=
-persist.gsm.sms.forcegsm7=0
-persist.radio.sms.forcegsm7=1
-#gsm.version.baseband=APQ8060/MDM9200
+#telephony.lteOnCdmaDevice=1
+telephony.lteOnGsmDevice=1
+ro.telephony.ril.v3=qcomuiccstack
+ro.product.camera=lgp930
+gsm.version.baseband=APQ8060/MDM9200
